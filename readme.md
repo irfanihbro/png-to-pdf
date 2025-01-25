@@ -1,16 +1,15 @@
+# Konverter PNG ke PDF 🌟
 
-# PNG to PDF Converter 🌟
+Aplikasi web modern yang memungkinkan pengguna mengonversi **file PNG ke PDF** dengan mudah. Dibangun dengan antarmuka yang intuitif menggunakan **Tailwind CSS** dan dilengkapi dengan fitur **drag-and-drop** untuk pengalaman yang lebih lancar.
 
-A modern web application that allows users to effortlessly convert **PNG files to PDF**. Built with an intuitive interface using **Tailwind CSS** and features **drag-and-drop** functionality for a seamless experience.
+## ✨ Fitur
+- **Konversi Banyak File**: Unggah banyak file PNG sekaligus dan gabungkan menjadi satu file PDF.
+- **Dukungan Drag-and-Drop**: Mempermudah proses pengunggahan file.
+- **Desain Responsif**: Dioptimalkan untuk perangkat desktop dan mobile.
+- **UI Minimalis**: Antarmuka elegan dengan desain gradasi modern.
+- **Proses Cepat**: Ditenagai oleh backend yang memastikan konversi file yang cepat.
 
-## ✨ Features
-- **Multiple File Conversion**: Upload multiple PNG files at once and combine them into a single PDF.
-- **Drag-and-Drop Support**: Simplifies the file upload process.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
-- **Minimalist UI**: Elegant interface with modern gradient styling.
-- **Fast Processing**: Powered by a backend that ensures quick file conversion.
-
-## 🛠️ Technologies Used
+## 🛠️ Teknologi yang Digunakan
 ### Frontend:
 - HTML
 - Tailwind CSS
@@ -21,39 +20,10 @@ A modern web application that allows users to effortlessly convert **PNG files t
 - Express.js
 - pdf-lib
 
-## 🚀 Getting Started
-1. Clone the repository:  
+## 🚀 Cara Memulai
+1. Clone repositori:  
    ```bash
-   git clone https://github.com/username/repo-name.git
-   cd repo-name
+   git clone https://github.com/irfanihbro/png-to-pdf.git
    ```
-2. Install dependencies:  
-   ```bash
-   npm install
-   ```
-3. Start the server:  
-   ```bash
-   node server.js
-   ```
-4. Open the application in your browser:  
-   [http://localhost:3000](http://localhost:3000)
-
-## 📂 Project Structure
-```
-/project
-|-- /public       # Frontend files (HTML, CSS, JS)
-|-- /uploads      # Temporary storage for uploaded files
-|-- server.js     # Backend logic for PNG to PDF conversion
-```
-
-## 🖼️ Demo
-![App Screenshot](https://via.placeholder.com/800x400?text=Screenshot+PNG+to+PDF+Converter)
-
-## 💡 Future Enhancements
-- Add file compression for smaller PDFs.
-- Support additional image formats (JPEG, SVG, etc.).
-- Provide layout and size customization options for PDFs.
-
----
-
-Feel free to contribute or suggest new features! 🚀
+2. Instal dependensi dengan perintah: "npm install" di terminal, instal Node.js jika belum.
+3. Jalankan program dengan perintah: "npm start" atau "node server.js" dan buka di http://localhost:3000
